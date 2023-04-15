@@ -2,7 +2,7 @@
     "name": "rkay/rkaymvc",
     "autoload": {
         "psr-4": {
-            "Rkay\\Rkaymvc\\": "src/"
+            "rkay\\rkaymvc\\": "."
         }
     },
     "authors": [
@@ -11,5 +11,8 @@
             "email": "mrrkayj86@gmail.com"
         }
     ],
-    "require": {}
+    "require": {
+        "vlucas/phpdotenv": "^5.5",
+        "ext-pdo": "*"
+    }
 }
