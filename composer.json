@@ -1,0 +1,15 @@
+{
+    "name": "rkay/rkaymvc",
+    "autoload": {
+        "psr-4": {
+            "Rkay\\Rkaymvc\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Rkay Ji",
+            "email": "mrrkayj86@gmail.com"
+        }
+    ],
+    "require": {}
+}
